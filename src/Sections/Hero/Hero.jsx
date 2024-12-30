@@ -17,10 +17,10 @@ import { useTheme } from "../../Common/themeContext";
 function Hero() {
   const { theme, toggletheme } = useTheme();
 
-  const themeIcon=theme==="light" ? sun:moon; 
-  const twitterIcon=theme==="light" ? twitterlight:twitterdark; 
-  const githubIcon=theme==="light" ? githublight: githubdark; 
-  const LinkedinIcon=theme==="light" ? Linkedinlight:Linkedindark;
+  const themeIcon = theme === "light" ? sun : moon;
+  const twitterIcon = theme === "light" ? twitterlight : twitterdark;
+  const githubIcon = theme === "light" ? githublight : githubdark;
+  const LinkedinIcon = theme === "light" ? Linkedinlight : Linkedindark;
 
   return (
     <section id="hero" className={styles.container}>
@@ -47,16 +47,18 @@ function Hero() {
           <a href="https://github.com/vasanthakumar21" target="_blank">
             <img src={githubIcon} alt="Github icon" />
           </a>
-          <a href="https://www.linkedin.com/in/vasanth-kumar-0b8730250/" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/vasanth-kumar-0b8730250/"
+            target="_blank"
+          >
             <img src={LinkedinIcon} alt="Linkedin icon" />
           </a>
         </span>
         <p className={styles.description}>
           {" "}
-          A passionate and dedicated B.Tech IT student at
-          Sri Krishna College of Technology, specializing in front-end
-          development. With a strong foundation in programming and a deep
-          interest in technology..
+          A passionate and dedicated B.Tech IT student at Sri Krishna College of
+          Technology, specializing in front-end development. With a strong
+          foundation in programming and a deep interest in technology..
         </p>
         <a href={cv}>
           <button className="hover" download>

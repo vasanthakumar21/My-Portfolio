@@ -4,11 +4,11 @@
   justify-content: center;
   gap: 20px;
   text-align: center;
-  height: 100dvh;
+  height: 100vh;
   min-height: 500px;
 }
 .hero {
-  max-width: 300px;
+  max-width: 130px;
 
   /* Keep width and height equal for a perfect circle */
   border-radius: 30%; /* Makes the image round */
@@ -24,7 +24,7 @@ span {
     margin: 0;
   }
   img {
-    width: 30px;
+    width: 20px;
   }
 }
 a {
@@ -58,6 +58,8 @@ button:active {
   position: absolute;
 
   width: 25px;
+  margin-top: 40px;
+  margin-left: 20px;
 }
 
 .colorMode:hover {
@@ -90,7 +92,7 @@ button:active {
 @media(width>=1400px){
     .container{
         .hero{
-        max-width: 99900px;
+        max-width: 400px;
         width: 400px;
         }
     }
