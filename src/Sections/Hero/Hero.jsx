@@ -10,6 +10,7 @@ import githubdark from "../../assets/github-dark.svg";
 import Linkedinlight from "../../assets/linkedin-light.svg";
 import Linkedindark from "../../assets/linkedin-dark.svg";
 import cv from "../../assets/cv.pdf";
+import cv2 from "../../assets/cv2.pdf"
 
 import React from "react";
 import { useTheme } from "../../Common/themeContext";
@@ -60,7 +61,7 @@ function Hero() {
           Technology, specializing in front-end development. With a strong
           foundation in programming and a deep interest in technology..
         </p>
-        <a href={cv}>
+        <a href={cv2}>
           <button className="hover" download>
             Resume
           </button>
